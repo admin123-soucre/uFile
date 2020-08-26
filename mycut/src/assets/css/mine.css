@@ -1,0 +1,156 @@
+@charset "utf-8";
+@import "public.css";
+body {
+    font-size: 0.12rem;
+    line-height: 1;
+}
+
+.wrap {
+    background-color: #fff;
+}
+
+.wrap .nav {
+    height: 0.88rem;
+    background-color: #f26b11;
+    padding-top: 0.1rem;
+}
+
+.wrap .nav img {
+    width: 0.18rem;
+    height: 0.3rem;
+}
+
+.wrap .nav .c {
+    width: auto;
+    height: 0.88rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrap .nav .c .center {
+    font-size: 0.35rem;
+    color: #fff;
+}
+
+.wrap .nav .c span {
+    display: inline-block;
+    width: 0.12rem;
+    height: 0.12rem;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.wrap .head {
+    width: auto;
+    height: 2.06rem;
+    background-color: #f26b11;
+}
+
+.wrap .head .son {
+    width: auto;
+    height: 2.06rem;
+    margin: 0 auto;
+}
+
+.wrap .head .son .fl img {
+    width: 1.41rem;
+    height: 1.41rem;
+    border-radius: 50%;
+    border: 0.05rem solid #fff;
+    margin-top: 0.27rem;
+    margin-left: 15px;
+}
+
+.wrap .head .son .fl .p1 {
+    margin-top: -1.2rem;
+    color: #fff;
+    font-size: 0.3rem;
+    margin-left: 1.96rem;
+}
+
+.wrap .head .son .fl .p2 {
+    margin-top: 0.1rem;
+    font-size: 0.21rem;
+    margin-left: 1.83rem;
+}
+
+.wrap .head .son .fr {
+    width: 1.59rem;
+    height: 0.71rem;
+    border-radius: 0.05rem;
+    background-color: #fff;
+    color: #f26b11;
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 0.71rem;
+    margin-top: -45px;
+    margin-left: 275px;
+}
+
+.wrap .body {
+    width: auto;
+    height: 1.42rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 0.2rem solid #f1f1f1;
+}
+
+.wrap .body .box {
+    width: 1.16rem;
+    height: 0.86rem;
+    text-align: center;
+}
+
+.wrap .body .box img {
+    width: 0.33rem;
+    height: 0.31rem;
+}
+
+.wrap .body .box p {
+    margin-top: 0.2rem;
+    font-size: 0.23rem;
+}
+
+.wrap .body1 {
+    width: auto;
+    height: 1.1rem;
+    border-bottom: 0.01rem solid #f1f1f1;
+}
+
+.wrap .body1 .son {
+    width: auto;
+    height: 1.1rem;
+    line-height: 1.1rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrap .body1 .son img {
+    width: 0.31rem;
+    height: 0.38rem;
+    margin-top: 20px;
+    /* float: right; */
+}
+
+.wrap .body1 .son .fr {
+    display: flex;
+}
+
+.wrap .body1 .son .left {
+    display: flex;
+}
+
+.wrap .body1 .son .wz1 {
+    margin-top: 0.05rem;
+    font-size: 0.3rem;
+    color: #ed681b;
+}
+
+.wrap .body1 .son .wz {
+    margin-left: 0.28rem;
+    font-size: 0.3rem;
+}

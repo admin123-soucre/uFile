@@ -1,0 +1,110 @@
+@charset "utf-8";
+@import "public.css";
+body {
+    font-size: 0.12rem;
+    line-height: 1;
+}
+
+.wrap {
+    background: #fff;
+}
+
+.wrap .nav {
+    height: 0.88rem;
+    background-color: #f26b11;
+    padding-top: 0.1rem;
+}
+
+.wrap .nav img {
+    width: 0.18rem;
+    height: 0.3rem;
+}
+
+.wrap .nav .c {
+    width: 6.87rem;
+    height: 0.88rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrap .nav .c .center {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.wrap .nav .set {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+
+/*  */
+
+.body {
+    width: 6.4rem;
+    height: auto;
+    margin: 0.8rem auto;
+}
+
+.body .namer {
+    width: 100vm;
+    height: 55px;
+    margin-top: 10px;
+    line-height: 60px;
+    border-bottom: 1px solid #a3a3a3;
+}
+
+.body .namer label {
+    font-size: 15px;
+    color: #959795;
+}
+
+.body .namer input {
+    width: 100vm;
+    height: 47px;
+    outline: none;
+    border: none;
+}
+
+.body .namer .span {
+    width: 97px;
+    height: 50px;
+    display: inline-block;
+    float: right;
+    font-size: 17px;
+    color: #959795;
+}
+
+.body .btn {
+    width: 100vm;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    margin: 55px auto;
+    background: #ff9900;
+    border-radius: 13px;
+}
+
+.body .pass a {
+    float: right;
+    margin-top: 20px;
+    color: #959795;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.body .btn button {
+    width: 100vm;
+    height: 55px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: transparent;
+    outline: none;
+    border: none;
+}

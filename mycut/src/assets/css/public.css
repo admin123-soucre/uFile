@@ -1,0 +1,8 @@
+@charset "utf-8";
+@import "normalize.css";
+@import "reset.css";
+.wrap {
+    max-width: auto;
+    margin: 0 auto;
+    background-color: #f1f1f1;
+}
